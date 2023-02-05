@@ -12,9 +12,14 @@ div{
     background-color: #151515;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .NavBar{
-    height: 100vh;
+    height: 78px;
     width:100%;
+    /* background-color:aliceblue; */
 }
 
 nav{
@@ -51,4 +56,99 @@ nav ul li a{
 nav ul li a:hover{
     color: #d67b26;
     transition: .3s ;
+}
+
+.Home{
+    display: flex;
+    padding: 10px 300px;
+    justify-content: space-between;
+}
+
+.Image img{
+    width: 500px;
+}
+
+.Content{
+    color: white;
+    padding-top: 180px;
+}
+
+#one{
+    font-size:50px;
+    padding-bottom: 10px;
+}
+
+#two{
+    font-size: 100px;
+    color: #d67b26;
+    padding-bottom: 10px;
+}
+
+#three{
+    font-size: 20.5px;
+    text-align: justify;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+#dot{
+    color: white;
+}
+
+a{
+    color:white;
+}
+
+a:hover{
+    color:#d67b26;
+    transition: .3s;
+}
+
+#four{
+    font-size:20px;
+}
+
+#Scroll{
+    padding-top: 100px;
+    color: white;
+    padding-left: 300px;
+    padding-bottom: 20px;
+}
+
+#h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+#h1{
+    font-size: 40px;
+    color: #d67b26;
+}
+
+.About1{
+    color:white;
+    padding-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #d67b26;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 58px;
+}
+
+.left{
+    padding: 35px;
+}
+
+.right{
+    padding: 35px;
+}
+
+#Bold{
+    color: white;
+    font-weight:500;
 }
