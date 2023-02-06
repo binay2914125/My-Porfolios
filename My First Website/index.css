@@ -1,15 +1,21 @@
-/* 
-
-div{
-    background-color: #313438;
-}
-
-} */ 
 *{
     padding: 0;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     background-color: #151515;
+}
+
+::-webkit-scrollbar{
+    background-color:#151515;
+}
+
+::-webkit-scrollbar-thumb{
+    background:white;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:#d67b26; 
 }
 
 html {
@@ -19,14 +25,14 @@ html {
 .NavBar{
     height: 78px;
     width:100%;
-    /* background-color:aliceblue; */
+    position: fixed ;
 }
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -58,9 +64,11 @@ nav ul li a:hover{
     transition: .3s ;
 }
 
-.Home{
+#Home{
     display: flex;
-    padding: 10px 300px;
+    padding-top: 80px;
+    padding-left:300px;
+    padding-right:300px;
     justify-content: space-between;
 }
 
@@ -108,7 +116,7 @@ a:hover{
     font-size:20px;
 }
 
-#Scroll{
+#Head1{
     padding-top: 100px;
     color: white;
     padding-left: 300px;
@@ -116,6 +124,7 @@ a:hover{
 }
 
 #h2{
+    color: white;
     font-size: 40px;
     padding-bottom: 10px;
 }
@@ -125,12 +134,12 @@ a:hover{
     color: #d67b26;
 }
 
-.About1{
+.Box1{
     color:white;
     padding-top: 10px;
     margin-left: 300px;
     margin-right: 300px;
-    border-radius: 10px;
+    border-radius: 12px;
     border-style: solid;
     border-color: #d67b26;
     display: flex;
@@ -138,6 +147,7 @@ a:hover{
     font-size: 30px;
     font-weight: lighter;
     line-height: 58px;
+    margin-bottom: 30px;
 }
 
 .left{
@@ -152,3 +162,50 @@ a:hover{
     color: white;
     font-weight:500;
 }
+
+.cvbutton{
+    padding-left: 1240px;
+    margin-bottom: 40px;
+}
+.cv #cv{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #d67b26;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#cv:hover{
+    background-color: white;
+}
+
+.Head2, .Box2{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#data{
+    font-size: 20px;
+    padding-top: 30px;
+    color: white;
+}
+
+.container{
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {width: 90%; background-color:#d67b26;}
+.css {width: 80%; background-color:#d67b26;}
+.js {width: 25%; background-color:#d67b26;}
+.java {width: 50%; background-color:#d67b26;}
+.py {width: 50%; background-color:#d67b26;}
+
